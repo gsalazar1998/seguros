@@ -1,0 +1,55 @@
+.container{    
+    margin: 0px;
+    padding: 0px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formLogin{
+    background: #e0e0e0;
+    border-radius: 30px;
+    width: 250px;
+    text-align: center;
+}
+
+#contenerdorG{
+width: 100%;
+float: left;
+}
+
+#btnguardar{
+    float: right;
+}
+.Modificar{
+
+border-radius: 5px;
+width: 100%;
+float: left;
+}
+.Modificar,label,.oficina{
+    float: left;
+    padding: 10px;
+}
+#buscador{
+
+    float: right;
+
+}
+
+#datos{
+
+width: 100%;
+float: left;
+
+}
+#obsiones_officina{
+    
+    display: block;
+    float: left;
+}
+
+
+
+
+
