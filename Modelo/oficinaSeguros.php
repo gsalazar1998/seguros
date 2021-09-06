@@ -18,9 +18,5 @@ class oficinaSeguros{
     public function setMax_valdec($MAX_VALDEC){ $this->MAX_VALDEC=$MAX_VALDEC;}
     
 
-
-   
-
-
 }
 ?>

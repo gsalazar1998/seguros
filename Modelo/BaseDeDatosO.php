@@ -1,7 +1,7 @@
 <?php
-class BD{
+class Ocidb{
     //archivo para establecer la coneccion con la base de datos
-    private $con;
+    private $ociConect;
    
     function __construct()
     {
@@ -11,7 +11,7 @@ class BD{
     public static function conectar(){
         try{
          //return  new PDO("192.168.100.132/tpitic","usuario_plight","u5uar10116ht");
-         return   oci_connect("usuario_plight", "u5uar10116ht", "192.168.100.132/tpitic"); 
+         return   oci_connect("usuario_plight", "u5uar10116ht", "192.168.100.132/tpitic","utf8"); 
 
 
  /*
