@@ -29,4 +29,4 @@ url
     ?c=(cobrador)&a=(funcion)&(nombre de la variable GET)=("contenido")
     ejemplo
     href="?c=cobrador&a=genTabla&CVE_COB="
-    **nota al realizarlo de esta manera la toma como variable  $_GET
+    **nota al realizarlo de esta manera la toma como variable  $_GET.
