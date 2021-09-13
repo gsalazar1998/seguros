@@ -34,9 +34,8 @@ class Cseguros
         //valida el usuario y contraseña
         $usuario = $_POST['usuario'];
         $contraseña = $_POST['contraseña'];
-        // $this->mCobradores=$this->validar($usuario,$contraseña);
+        //Se extrae el usuario y su informacion
         $select = $this->UEH = $this->obj->validar($usuario);
-        //  var_dump($select);
         //si existe el usuario
         if ($this->UEH != null) {
             //si el usuarioesta activo (la contraseña viene encriptada)
