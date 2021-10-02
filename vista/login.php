@@ -2,7 +2,9 @@
 <div class="formLogin ">
 
 <form class="mt-5 mb-5 login-input" action="?c=seguros&a=validar" method="POST">
-  <h4> Seguros </h4>  
+<!-icono de flaticon--->
+<img src="./css/icons/delivery-truck .png">
+  <h4> Seguros </h4>
 <label>usuario
 <input type="text" placeholder="Usuario" name="usuario"></label>
 <label>contraseña

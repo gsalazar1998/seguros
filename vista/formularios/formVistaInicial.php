@@ -14,7 +14,7 @@
 
                 <label>limite seguro:<input type="number" id="LIM_SEGURO" name="LIM_SEGURO" required disabled="" maxlength="1" onkeypress="return (event.charCode==48||event.charCode==49)"></label>
 
-                <button type="submit" id="btnguardar" class="btn btn-success" value="agregar" disabled="" >guardar</button>
+                <button type="submit" id="btnguardar" class="btn btn-success" value="agregar" disabled="" >guardar <i class="fa fa-save"></i></button>
 
 
             </form>

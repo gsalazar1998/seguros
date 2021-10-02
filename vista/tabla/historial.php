@@ -1,7 +1,7 @@
 <div id="contenidoTabla">
     
-    <button type="button" class="btn btn-success" id="Regresar" onclick="Regresar()">Regresar</button>
-    <button type="button" class="btn btn-primary" id="Actualizar" onclick="Actualizar()">Actualizar Tabla</button>
+    <button type="button" class="btn btn-success" id="Regresar" onclick="Regresar()"><i class="fa fa-arrow-left"></i> Regresar</button>
+    <button type="button" class="btn btn-primary" id="Actualizar" onclick="Actualizar()">Actualizar Tabla <i class="fa fa-retweet"></i></button>
     <label id="buscador">Buscar:<input id="busqueda" type="text" onkeyup="busqueda()"></label>
     <table id="seguroT" class="table table-hover">
         <thead class="thead-light">

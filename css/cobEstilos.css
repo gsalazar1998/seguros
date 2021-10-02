@@ -47,6 +47,12 @@ float: left;
     display: block;
     float: left;
 }
+#menu{
+    width: 100%;
+}
+#salir{
+    float: right;
+}
 
 
 

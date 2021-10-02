@@ -4,7 +4,7 @@
 
         <div class="Modificar">
 
-            <button type="button" class="btn btn-primary" id="Regresar" onclick="Regresar()">Regresar</button>
+            <button type="button" class="btn btn-primary" id="Regresar" onclick="Regresar()"><i class="fa fa-arrow-left"></i> Regresar</button>
             <!-- <button type="button" class="btn btn-secondary" id="Editar" onclick="Editar()">Editar</button>-->
             <?php foreach ($this->lSeguroSOLOUNO as $reg_sect) : ?>
                 <form name="frmSeguroEditor" action="?c=seguros&a=Actualizar" id="datos" method="POST">
@@ -17,7 +17,7 @@
                   
                     <input id="prodId" name="OFICINA" type="hidden" value="<?php echo $reg_sect->getoficina() ?>">
                     <input id="DESCId" name="DESCRIPCION" type="hidden" value="<?php echo $reg_sect->getdescripcion() ?>">
-                    <button type="submit" id="btnguardar_Editor" class="btn btn-success" onclick="valicacionDeCamposVacios()" value="Editar">guardar</button>
+                    <button type="submit" id="btnguardar_Editor" class="btn btn-success" onclick="valicacionDeCamposVacios()" value="Editar">guardar <i class="fa fa-save"></i></button>
                 <?php endforeach; ?>
                 <!--****************Este es un documento tipo javascript-->
                 <script type="text/javascript">

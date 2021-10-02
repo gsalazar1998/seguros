@@ -2,7 +2,7 @@
 </div>
 
 <div id="contenidoTabla">
-    <button type="button" class="btn btn-primary" id="Actualizar" onclick="Actualizar()">Actualizar Tabla</button>
+    <button type="button" class="btn btn-primary" id="Actualizar" onclick="Actualizar()">Actualizar Tabla <i class="fa fa-retweet"></i></button>
     <label id="buscador">Buscar:<input id="busqueda" type="text" onkeyup="busqueda()"></label>
     <table id="seguroT" class="table table-hover">
         <thead class="thead-light">
@@ -22,8 +22,8 @@
                     <td name="id"><?php echo $regCob->getoficina() ?></td>
                     <td name="id"><?php echo $regCob->getdescripcion() ?></td>
                     <td name="id"><?php echo $regCob->getMax_valdec() ?></td>
-                    <td><a href="?c=seguros&a=genTabla&Oficina=<?php echo $regCob->getoficina(); ?>">Editar</a></td>
-                    <td><a href="?c=seguros&a=Restablecer&Oficina=<?php echo $regCob->getoficina();?>&Monto=<?php echo $regCob->getMax_valdec()?>">Restablecer</a></td>
+                    <td><a href="?c=seguros&a=genTabla&Oficina=<?php echo $regCob->getoficina(); ?>"><i class="fa fa-edit"></i></a></td>
+                    <td><a href="?c=seguros&a=Restablecer&Oficina=<?php echo $regCob->getoficina();?>&Monto=<?php echo $regCob->getMax_valdec()?>"><i class="fa fa-history"></i></a></td>
 
               </tr>
             <?php endforeach; ?>
