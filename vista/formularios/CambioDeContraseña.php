@@ -9,9 +9,9 @@
       <label>Usuario: <?php echo $row->getusuario();$row->getusuario(); ?></label><br>
       <label><h6> Cambiar contraseña </h6></label>
       <label>contraseña
-        <input type="password" maxlength="20" placeholder="contraseña" id="contraseña" name="contraseña"></label><br>
+        <input type="password" maxlength="25" placeholder="contraseña" id="contraseña" name="contraseña"></label><br>
       <label>confirmar
-        <input type="password" maxlength="20" placeholder="confirmar" id="contraFirm" name="contraFirm"></label><br>
+        <input type="password" maxlength="25" placeholder="confirmar" id="contraFirm" name="contraFirm"></label><br>
       <input id="id" name="id" type="hidden" value="<?php echo $row->getid(); ?>">
       <input id="usuario" name="usuario" type="hidden" value="<?php echo $row->getusuario(); ?>">
      

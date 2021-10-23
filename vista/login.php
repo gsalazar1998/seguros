@@ -8,7 +8,7 @@
 <label>usuario
 <input type="text" placeholder="Usuario" name="usuario"></label>
 <label>contraseña
-<input type="password" maxlength="20"  placeholder="contraseña"  name="contraseña"></label>
+<input type="password" maxlength="25"  placeholder="contraseña"  name="contraseña"></label>
 <button class="btn btn-success btn-lg" type="submit"> ingresar
 </button>
 </form>

@@ -103,7 +103,7 @@ class consultas
     function historial()
     {
         $listadoRcoc = [];
-        $sql = "SELECT * FROM s_usuarios as U INNER JOIN s_historial as H ON U.id_usuario=H.id_usuarioH";
+        $sql = "SELECT * FROM s_usuarios as U INNER JOIN s_historial as H ON U.id_usuario=H.id_usuarioH ORDER BY H.fecha DESC";
         $pdo = $this->MysqlConect->prepare($sql);
         $pdo->execute();
         while ($r = $pdo->fetch(PDO::FETCH_ASSOC)) {
